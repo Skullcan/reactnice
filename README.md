@@ -33,13 +33,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
--   Make sure your environment is setup correctly. https://reactnative.dev/docs/environment-setup
+-   Make sure your environment is set up [correctly](https://reactnative.dev/docs/environment-setup).
 -   Verify it using npx @react-native-community/cli doctor (thanks [@truediogo](https://github.com/truediogo))
--   Make sure you have followed the instruction for successfully compiling the bundled Hermes in: https://reactnative.dev/architecture/bundled-hermes#android-users-on-new-architecture
--   Make sure you are using the Visual Studio Developer Command Prompt. https://reactnative.dev/docs/visual-studio-command-prompt.
--   Download and extract the binaries of the ICU4C library. At this moment the latest version is:
-https://github.com/unicode-org/icu/releases/tag/release-71-1
--   Add the ICU4C folder to your PATH in the Enviroment Variables. ie: C:\icu4c\bin
+-   Make sure you have followed the [instructions](https://reactnative.dev/architecture/bundled-hermes#android-users-on-new-architecture) for successfully compiling the bundled Hermes.
+-   Make sure you are using the [Visual Studio Developer Command Prompt](https://reactnative.dev/docs/visual-studio-command-prompt).
+-   [Download](https://github.com/unicode-org/icu/releases/tag/release-71-1) and extract the binaries of the ICU4C library.
+-   Add the ICU4C folder you extracted to your PATH in the Enviroment Variables. ie: C:\icu4c\bin
 
 
 ## 🎈 Usage <a name="usage"></a>
@@ -47,17 +46,14 @@ https://github.com/unicode-org/icu/releases/tag/release-71-1
 After you cloned the repository, you can run the project using the following command:
 
 ```
-yarn install
-yarn android
+yarn install && yarn android
 ```
 
 ## ✅ Changes made <a name = "changes"></a>
 
-You can check all the changes in the [commits](https://github.com/Skullcan/reactnice/commits/master), but most important ones are:
+You can check all the changes in the [commits](https://github.com/Skullcan/reactnice/commits/master), but most important one is:
 
 -   Added the [import](https://github.com/Skullcan/reactnice/blob/b1accfd5df286fb6b4713d1def7d56ee0fa92760/android/build.gradle#L1) and [IF](https://github.com/Skullcan/reactnice/blob/b1accfd5df286fb6b4713d1def7d56ee0fa92760/android/build.gradle#L15) in the project/build.gradle file for the NDK version 23.1.7779620. This is to prevent the error with long path files during the build process.
--   Added the plugin and [configuration](https://github.com/Skullcan/reactnice/blob/b1accfd5df286fb6b4713d1def7d56ee0fa92760/android/app/build.gradle#L123) for react-native-codegen and gradle. This is to generate the code for the new architecture as the documentation [prerequisites](https://reactnative.dev/docs/new-architecture-app-intro). Attention here, most of the changes suggested int he documentation are already implemented in the new version of the npx react-native init template. Check the files of your project before adding code to them.
-
 
 ## ✍️ Authors <a name = "authors"></a>
 
