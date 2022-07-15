@@ -120,14 +120,6 @@ def jscFlavor = 'org.webkit:android-jsc:+'
  */
 def enableHermes = project.ext.react.get("enableHermes", false);
 
-// Add those lines
-apply plugin: "com.facebook.react"
-// Add those lines as well
-react {
-    reactRoot = rootProject.file("../node_modules/react-native/")
-    codegenDir = rootProject.file("../node_modules/react-native-codegen/")
-}
-
 /**
  * Architectures to build native code for.
  */
@@ -267,8 +259,7 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
 
     //noinspection GradleDynamicVersion
-    //implementation "com.facebook.react:react-native:+"  // From node_modules
-    implementation project(":ReactAndroid")  // From node_modules
+    implementation "com.facebook.react:react-native:+"  // From node_modules
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 
