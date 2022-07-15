@@ -33,9 +33,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
--   Make sure your environment is set up correctly. https://reactnative.dev/docs/environment-setup
+-   Make sure your environment is set up [correctly](https://reactnative.dev/docs/environment-setup).
 -   Verify it using npx @react-native-community/cli doctor (thanks [@truediogo](https://github.com/truediogo))
--   Make sure you have followed the instructions for successfully compiling the bundled Hermes in: https://reactnative.dev/architecture/bundled-hermes#android-users-on-new-architecture
+-   Make sure you have followed the [instructions](https://reactnative.dev/architecture/bundled-hermes#android-users-on-new-architecture) for successfully compiling the bundled Hermes.
 -   Make sure you are using the [Visual Studio Developer Command Prompt](https://reactnative.dev/docs/visual-studio-command-prompt).
 -   [Download](https://github.com/unicode-org/icu/releases/tag/release-71-1) and extract the binaries of the ICU4C library.
 -   Add the ICU4C folder you extracted to your PATH in the Enviroment Variables. ie: C:\icu4c\bin
