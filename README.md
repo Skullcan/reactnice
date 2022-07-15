@@ -47,17 +47,14 @@ https://github.com/unicode-org/icu/releases/tag/release-71-1
 After you cloned the repository, you can run the project using the following command:
 
 ```
-yarn install
-yarn android
+yarn install && yarn android
 ```
 
 ## ✅ Changes made <a name = "changes"></a>
 
-You can check all the changes in the [commits](https://github.com/Skullcan/reactnice/commits/master), but most important ones are:
+You can check all the changes in the [commits](https://github.com/Skullcan/reactnice/commits/master), but most important one is:
 
 -   Added the [import](https://github.com/Skullcan/reactnice/blob/b1accfd5df286fb6b4713d1def7d56ee0fa92760/android/build.gradle#L1) and [IF](https://github.com/Skullcan/reactnice/blob/b1accfd5df286fb6b4713d1def7d56ee0fa92760/android/build.gradle#L15) in the project/build.gradle file for the NDK version 23.1.7779620. This is to prevent the error with long path files during the build process.
--   Added the plugin and [configuration](https://github.com/Skullcan/reactnice/blob/b1accfd5df286fb6b4713d1def7d56ee0fa92760/android/app/build.gradle#L123) for react-native-codegen and gradle. This is to generate the code for the new architecture as the documentation [prerequisites](https://reactnative.dev/docs/new-architecture-app-intro). Attention here, most of the changes suggested int he documentation are already implemented in the new version of the npx react-native init template. Check the files of your project before adding code to them.
-
 
 ## ✍️ Authors <a name = "authors"></a>
 
