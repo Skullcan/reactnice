@@ -40,7 +40,6 @@ These instructions will get you a copy of the project up and running on your loc
 -   [Download](https://github.com/unicode-org/icu/releases/tag/release-71-1) and extract the binaries of the ICU4C library.
 -   Add the ICU4C folder you extracted to your PATH in the Enviroment Variables. ie: C:\icu4c\bin
 
-
 ## 🎈 Usage <a name="usage"></a>
 
 After you cloned the repository, you can run the project using the following command:
@@ -54,6 +53,7 @@ yarn install && yarn android
 You can check all the changes in the [commits](https://github.com/Skullcan/reactnice/commits/master), but most important one is:
 
 -   Added the [import](https://github.com/Skullcan/reactnice/blob/b1accfd5df286fb6b4713d1def7d56ee0fa92760/android/build.gradle#L1) and [IF](https://github.com/Skullcan/reactnice/blob/b1accfd5df286fb6b4713d1def7d56ee0fa92760/android/build.gradle#L15) in the project/build.gradle file for the NDK version 23.1.7779620. This is to prevent the error with long path files during the build process.
+-   It's worth noting that for this to build in release variant I'm using this [PR](https://github.com/facebook/react-native/pull/34151) too in the patch-package postinstall.
 
 ## ✍️ Authors <a name = "authors"></a>
 
