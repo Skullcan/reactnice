@@ -66,6 +66,7 @@ You can check all the changes in the [commits](https://github.com/Skullcan/react
 -   [@vikassahu305](https://github.com/vikassahu305)
 -   [@truediogo](https://github.com/truediogo)
 -   [@JoseLion](https://github.com/JoseLion)
+-   [@jslok](https://github.com/jslok)
 
 Thanks to [@antoncojocaru](https://github.com/antoncojocaru) for [pointing](https://github.com/th3rdwave/react-native-safe-area-context/issues/294#issuecomment-1185682181) that the steps in the prerequisites instructions are not necessary if you are using a new project.
 
